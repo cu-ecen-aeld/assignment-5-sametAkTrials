@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_AESD_EMBEDDEDSOCKET
+	bool "aesd-embeddedsocket"
+	help
+	  Includes the socket application and its service files for SystemVInit and
+	  BusyBoxInit in the kernel image.
