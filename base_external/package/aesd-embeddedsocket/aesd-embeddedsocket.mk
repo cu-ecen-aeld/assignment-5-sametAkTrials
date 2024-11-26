@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_EMBEDDEDSOCKET_VERSION = '3e776126944f32551ccba7b98e1b62b2a506b417'
+AESD_EMBEDDEDSOCKET_VERSION = '63b96ec4161bbf7336bfd44643c453d77ab91631'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
