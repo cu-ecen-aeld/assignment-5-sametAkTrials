@@ -1,0 +1,21 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        echo "Loading Hello & Faulty & SCULL Kernel Module"
+        /sbin/modprobe hello
+        /etc/module_load faulty
+        /etc/scull_load
+        ;;
+    stop)
+        echo "Unloading Hello & Faulty & SCULL Kernel Module"
+        /sbin/rmmod hello
+        /etc/module_unload faulty
+        /etc/scull_unload
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+esac
+
+exit 0
